@@ -1,0 +1,30 @@
+body
+{ background-image: url("img/sfondo.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#titolo
+{
+  font: normal 100% 'century gothic', arial;
+  font-size: 20pt;
+  color: white
+}
+
+.flex {
+    max-width: 15%
+  }
+
+.pulsante{
+  width:250px;
+  height:50px;
+  background-color: white;
+  cursor: pointer;
+  font: normal 100% 'century gothic', arial;
+  font-size: 17pt;
+}
+.pulsante:hover {
+  background-color: rgb(148, 147, 151);
+  width:260px;
+  height:60px;
+}
